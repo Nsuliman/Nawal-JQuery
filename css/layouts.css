@@ -1,0 +1,38 @@
+h1 {
+  margin-top: 5px ; 
+  margin-bottom: 40px;
+}
+
+div {
+  float: left;
+  height: 520px;
+  margin: 3em;
+  width: 325px;
+  text-align: center;
+  align-content: center; 
+}
+
+main {
+  overflow:hidden;
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+}
+
+header #page1, #page2 {
+
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+#sortImages,#sortImagesH {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer {
+  margin: 30px auto;
+}

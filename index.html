@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">           
+   <!-- As I read for SMACSS AND RWD VIEWPOINT , initial-scale=1.0 = Intial state when page loaded , "width=device-width to be applicable to any device -->
+  <title>HORNS</title>
+
+  <!-- <link rel="stylesheet" href="css/reset.css"> -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layouts.css">
+  <link rel="stylesheet" href="css/modules.css">
+
+
+  <script id="entry-template" type="text/x-handlebars-template">
+    <div class= "{{keyword}}">
+        <h2> {{title}}</h2>
+        <img src = "{{image_url}}" >
+        <p> {{description}}</p>
+    </div>
+  </script>
+
+  <script id="options-template" type="text/x-handlebars-template">
+    <option value="{{keyword}}">{{keyword}}</option>
+  </script>
+
+
+</head>
+<body>
+  
+  <header>
+    <h1> The Gallary Of Horns  </h1>
+
+
+    <button id="page1">Page 1</button>
+      <button id="page2">Page 2</button>
+
+    <select>
+      <option value="default">Filter by Keyword</option>
+    </select>
+
+    <button id="sortImages">Sort By Title</button>
+    <button id="sortImagesH">Sort By Numbers of Horns</button>
+
+  </header>
+
+  <main>
+    <section id="photo-template">
+      <h2 id="h2style"></h2>
+      <img src="" >
+      <p></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2019 Code Fellows | Nawal Suliman 
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.4.2/handlebars.min.js"> </script>
+  <script src="js/app.js"></script>
+</body>
+</html>
