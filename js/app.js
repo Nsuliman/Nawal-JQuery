@@ -67,7 +67,6 @@ $('#page1').on('click', function () {
 }); // end of click function 
 
 /******************************************************* Filter  Images ***********************************************/
-
 /*   <option value="default">Filter by Keyword</option>    */
 
 function populateSelectBox() {

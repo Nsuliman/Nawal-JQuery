@@ -13,7 +13,8 @@
       "node": true,
       "es6": true,
       "jest": true
-    },
+    }
+    ,
     "rules": {
       "eqeqeq": ["error", "always"],
       "no-template-curly-in-string": "error",
