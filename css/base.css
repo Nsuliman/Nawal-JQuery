@@ -1,0 +1,93 @@
+body {
+
+  background-color: rgb(17, 78, 78);
+}
+
+h1 {
+
+  color: rgb(51, 2, 2);
+  text-align: center;
+  background-color: rgb(228, 228, 240);
+  background-color: rgb(232, 232, 241);
+  border-radius: 50px;
+}
+
+header {
+  border-bottom: 10px solid pink;
+  border-radius: 30px;
+}
+
+main {
+  font-family: 'Playfair Display', serif;
+  font-weight: bolder;
+}
+
+#h2style {
+  color: rgb(119, 9, 114);
+}
+
+select {
+  color: black;
+  padding: 10px;
+  background-color: aqua;
+  border: 10px solid rgb(211, 133, 146);
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+option {
+  color: rgb(12, 12, 105);
+  background-color: rgb(232, 232, 241);
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+div {
+  color: navy;
+  background-color: rgb(232, 232, 241);
+  border-radius: 60px;}
+
+img {
+  max-width: 80%;
+}
+footer {
+
+  color: rgb(189, 88, 88);
+  text-align: center;
+  background-color: rgb(228, 228, 240);
+  font-weight: bolder;
+  font-size: x-large;
+  background-color: rgb(232, 232, 241);
+  border-radius: 50px;
+}
+
+header #page1, #page2 {
+
+  color: rgb(71, 3, 68);
+  font-size: large;
+  font-weight: bold;
+  font-family: cursive;
+  background-color: rgb(153, 124, 160);
+}
+
+#page1:hover {
+
+  color: rebeccapurple;
+}
+
+#page2:hover {
+
+  color: rebeccapurple;
+}
+
+#sortImages,#sortImagesH {
+
+  color: rgb(17, 41, 2);
+  font-size: large;
+  font-weight: bold;
+  font-family: cursive;
+  background-color: rgb(44, 151, 71);
+  
+}

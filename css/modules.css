@@ -1,0 +1,25 @@
+select {
+    padding: 20px;
+}
+
+footer {
+
+    padding: 20px;
+}
+
+h1 {
+    padding: 20px;
+}
+
+header #page1, #page2 {
+
+    padding: 10px; 
+    border: 5px solid; 
+    border-radius: 10px;
+}
+
+#sortImages,#sortImagesH {
+    padding: 10px; 
+    border: 5px solid; 
+    border-radius: 10px;
+}
